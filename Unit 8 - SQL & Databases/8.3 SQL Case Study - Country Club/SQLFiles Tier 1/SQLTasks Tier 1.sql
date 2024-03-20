@@ -34,6 +34,8 @@ exploring the data, and getting acquainted with the 3 tables. */
 /* Q1: Some of the facilities charge a fee to members, but some do not.
 Write a SQL query to produce a list of the names of the facilities that do. */
 
+SELECT * FROM Facilities WHERE fee > 0
+
 
 /* Q2: How many facilities do not charge a fee to members? */
 
